@@ -5,7 +5,11 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Date">
+<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>

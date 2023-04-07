@@ -44,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">wmio</value>
-    <value name="createdDate">1680856346661</value>
-    <value name="lastModifiedDate">1680856346661</value>
+    <value name="lastModifiedBy">wmio</value>
+    <value name="lastModifiedDate">1680856362178</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <null name="group"/>
@@ -62,6 +61,17 @@
           <value name="groupName">date</value>
           <null name="services"/>
         </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">getCurrentDate</value>
+          <value name="serviceName">pub.date:getCurrentDate</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>

@@ -1,13 +1,13 @@
 version: "1.0"
 info:
-  scaffold: testFS
+  scaffold: testFS2_newEdgeServer
   model: int-scaffold
 services:
-- serviceName: pub.string:toUpper
+- serviceName: pub.math:addInts
   packages:
   - name: WmPublic
     version: 11.0.0.0.248
-- serviceName: edge.vidiapril7.integrations:testFS
+- serviceName: edge.vidiapril7.integrations:testFS2_newEdgeServer
   packages:
   - name: EdgeVidiApril7
     version: "1.0"
